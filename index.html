@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <!--Usamos o header para criar o cabeçalho de um blog-->
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <!--Vamos usar a tag main para colocar conteudo como exemplo fotos...-->
+        <main id="post-container">
+            <article class="post">
+                <img src="img/f1.jpg" alt="Role de Barco">
+                <h3 class="title"><a href="">Algum titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Quibusdam sit deleniti eveniet suscipit praesentium rerum,
+                     exercitationem, voluptatum placeat, accusamus eius doloribus
+                     a vero magnam voluptatem soluta laboriosam ipsa delectus dicta!</p>
+                     <a href="">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/f2.jpg" alt="Cachoeira">
+                <h3 class="title"><a href="">Algum titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Quibusdam sit deleniti eveniet suscipit praesentium rerum,
+                     exercitationem, voluptatum placeat, accusamus eius doloribus
+                     a vero magnam voluptatem soluta laboriosam ipsa delectus dicta!</p>
+                     <a href="">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/f3.jpg" alt="Balões">
+                <h3 class="title"><a href="">Algum titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Quibusdam sit deleniti eveniet suscipit praesentium rerum,
+                     exercitationem, voluptatum placeat, accusamus eius doloribus
+                     a vero magnam voluptatem soluta laboriosam ipsa delectus dicta!</p>
+                     <a href="">Ler mais</a>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Caregorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="">Paisagem</a></li>
+                        <li><a href="">Aventura</a></li>
+                        <li><a href="">Viagens</a></li>
+                        <li><a href="">Floresta</a></li>
+                        <li><a href="">Cachoeira</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="">LifeStyle</a>
+                    <a href="">Viagem</a>
+                    <a href="">Barco</a>
+                    <a href="">Trilha</a>
+                    <a href="">Tirolesa</a>
+
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores registros de Aventur</p>
+        <p>&copy; Blog - 2024</p>
+    </footer>
+</body>
+</html>
